@@ -1,0 +1,211 @@
+{
+"callback_id": "allergypicker",
+"title": "Please list allergies:",
+"submit_label": "Save",
+"notify_on_cancel": "true",
+"elements": [
+    {
+        "type": "select",
+        "label": "Allergy 1",
+        "name": "allergy1",
+        "optional": "true",
+	"value": "",
+	"options": [
+	    {
+	      "label": "Celery",
+	      "value": "celery"
+	    },
+	    {
+	      "label": "Egg",
+	      "value": "egg"
+	    },
+	    {
+	      "label": "Fish",
+	      "value": "fish"
+	    },
+	    {
+	      "label": "Gluten",
+	      "value": "gluten"
+	    },
+	    {
+	      "label": "Lactose",
+	      "value": "lactose"
+	    },
+	    {
+	      "label": "Lupine",
+	      "value": "lupine"
+	    },
+	    {
+	      "label": "Mustard",
+	      "value": "mustard"
+	    },
+	    {
+	      "label": "Mollusk",
+	      "value": "mollusk"
+	    },
+	    {
+	      "label": "Nut",
+	      "value": "nut"
+	    },
+	    {
+	      "label": "Peanut",
+	      "value": "peanut"
+	    },
+	    {
+	      "label": "Shellfish",
+	      "value": "shellfish"
+	    },
+	    {
+	      "label": "Sesame",
+	      "value": "sesame"
+	    },
+	    {
+	      "label": "Soy",
+	      "value": "soy"
+	    },
+	    {
+	      "label": "Sulphite",
+	      "value": "sulphite"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Allergy 2",
+        "name": "allergy2",
+        "optional": "true",
+	"value": "",
+	"options": [
+	    {
+	      "label": "Celery",
+	      "value": "celery"
+	    },
+	    {
+	      "label": "Egg",
+	      "value": "egg"
+	    },
+	    {
+	      "label": "Fish",
+	      "value": "fish"
+	    },
+	    {
+	      "label": "Gluten",
+	      "value": "gluten"
+	    },
+	    {
+	      "label": "Lactose",
+	      "value": "lactose"
+	    },
+	    {
+	      "label": "Lupine",
+	      "value": "lupine"
+	    },
+	    {
+	      "label": "Mustard",
+	      "value": "mustard"
+	    },
+	    {
+	      "label": "Mollusk",
+	      "value": "mollusk"
+	    },
+	    {
+	      "label": "Nut",
+	      "value": "nut"
+	    },
+	    {
+	      "label": "Peanut",
+	      "value": "peanut"
+	    },
+	    {
+	      "label": "Shellfish",
+	      "value": "shellfish"
+	    },
+	    {
+	      "label": "Sesame",
+	      "value": "sesame"
+	    },
+	    {
+	      "label": "Soy",
+	      "value": "soy"
+	    },
+	    {
+	      "label": "Sulphite",
+	      "value": "sulphite"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Allergy 3",
+        "name": "allergy3",
+        "optional": "true",
+	"value": "",
+	"options": [
+	    {
+	      "label": "Celery",
+	      "value": "celery"
+	    },
+	    {
+	      "label": "Egg",
+	      "value": "egg"
+	    },
+	    {
+	      "label": "Fish",
+	      "value": "fish"
+	    },
+	    {
+	      "label": "Gluten",
+	      "value": "gluten"
+	    },
+	    {
+	      "label": "Lactose",
+	      "value": "lactose"
+	    },
+	    {
+	      "label": "Lupine",
+	      "value": "lupine"
+	    },
+	    {
+	      "label": "Mustard",
+	      "value": "mustard"
+	    },
+	    {
+	      "label": "Mollusk",
+	      "value": "mollusk"
+	    },
+	    {
+	      "label": "Nut",
+	      "value": "nut"
+	    },
+	    {
+	      "label": "Peanut",
+	      "value": "peanut"
+	    },
+	    {
+	      "label": "Shellfish",
+	      "value": "shellfish"
+	    },
+	    {
+	      "label": "Sesame",
+	      "value": "sesame"
+	    },
+	    {
+	      "label": "Soy",
+	      "value": "soy"
+	    },
+	    {
+	      "label": "Sulphite",
+	      "value": "sulphite"
+	    }
+]
+    },
+    {
+        "type": "text",
+        "label": "Other",
+        "name": "allergy4",
+        "optional": "true",
+        "hint": "For multiple, enter a comma-separated list",
+        "placeholder": "Tomato, avocado, pessimism"
+    }
+]
+}

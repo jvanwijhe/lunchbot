@@ -1,0 +1,36 @@
+{
+    "text": "Great! Do you have any dietary preferences?",
+    "response_type": "ephemeral",
+    "attachments": [
+        {
+            "text": "",
+            "fallback": "Whoops, something went wrong.",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "callback_id": "diet_options",
+            "actions": [
+                {
+                    "name": "diet_menu",
+                    "text": "Diet",
+                    "type": "select",
+		    "options": [
+			{
+			    "text": "No Restriction",
+			    "value": "omni"
+			},
+			{
+			    "text": "Vegetarian",
+			    "value": "vegetarian"
+			},
+			{
+			    "text": "Vegan",
+			    "value": "vegan"
+			}
+		    ]
+		}
+            ]
+        }
+    ]
+}
+
+

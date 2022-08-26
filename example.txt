@@ -1,0 +1,11 @@
+:burrito: Whoops, looks like you missed something. :burrito:
+
+Use the lunch command like this: `/lunch [diet] [days]`
+Example: `/lunch vegan m tu f`
+Opt out (holiday): `/lunch none`
+Opt out permanently: `/lunch unsubscribe` (you'll receive no weekly reminders)
+
+day options: *m, tu, w, th, f, none, all*
+diet options: *:meat_on_bone: omni, :eggplant: vegetarian, :bread: gluten-free, :fish: no-fish, :corn: vegan, :chestnut: nut-allergy*
+
+

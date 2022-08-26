@@ -1,0 +1,26 @@
+{
+    "text": "Great, all set! We'll place the same order weekly, unless you change your settings.",
+    "response_type": "ephemeral",
+    "attachments": [
+        {
+            "text": "Anything else?:",
+            "fallback": "whoops, something's not right.",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "callback_id": "wrapup",
+            "actions": [
+                {
+                    "name": "diet_picker",
+                    "text": "Place order",
+                    "type": "button"
+                },
+		{
+                    "name": "nevermind",
+                    "text": "Nevermind",
+                    "type": "button"
+		}
+            ]
+        }
+    ]
+}
+

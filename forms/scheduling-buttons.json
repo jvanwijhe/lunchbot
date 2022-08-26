@@ -1,0 +1,33 @@
+{
+    "text": "Pick days for your lunch order.",
+    "response_type": "ephemeral",
+    "attachments": [
+        {
+            "text": "Order lunch next week for:",
+            "fallback": "If you could read this message, you'd be choosing something fun to do right now.",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "callback_id": "schedule-selector",
+            "actions": [
+                {
+                    "name": "all",
+                    "text": "All Week",
+                    "type": "button"
+                },
+		{
+                    "name": "none",
+                    "text": "No days",
+                    "type": "button"
+		},
+                {
+                    "name": "specific",
+                    "text": "Specific Days",
+                    "style": "danger",
+                    "type": "button"
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,11 @@
+lunchbot.db
+__pycache__/
+menu.txt
+migrations/
+reports/
+*.log
+*.xlsx
+*.db
+.env
+README.md
+templates/

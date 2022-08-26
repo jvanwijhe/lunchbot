@@ -1,0 +1,36 @@
+{
+    "text": "Hi! Let me take your lunch order!",
+    "response_type": "ephemeral",
+    "attachments": [
+        {
+            "text": "Do you want to:",
+            "fallback": "whoops, something's not right.",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "callback_id": "lunch_selection",
+            "actions": [
+                {
+                    "name": "diet_picker",
+                    "text": "Adjust order",
+                    "type": "button"
+                },
+                {
+                    "name": "allergies_button",
+                    "text": "Report allergies",
+                    "type": "button"
+                },
+                {
+                    "name": "pause",
+                    "text": "Pause order",
+                    "type": "button"
+                },
+		{
+                    "name": "nevermind",
+                    "text": "Looks good",
+                    "type": "button"
+		}
+            ]
+        }
+    ]
+}
+

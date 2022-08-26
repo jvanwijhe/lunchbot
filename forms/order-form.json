@@ -1,0 +1,88 @@
+{
+"callback_id": "daypicker",
+"title": "Pick days for lunch:",
+"submit_label": "Save",
+"notify_on_cancel": "true",
+"elements": [
+    {
+        "type": "select",
+        "label": "Monday",
+        "name": "monday",
+	"value": "yes",
+	"options": [
+	    {
+	      "label": "Yes",
+	      "value": "yes"
+	    },
+	    {
+	      "label": "No",
+	      "value": "no"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Tuesday",
+        "name": "tuesday",
+	"value": "yes",
+	"options": [
+	    {
+	      "label": "Yes",
+	      "value": "yes"
+	    },
+	    {
+	      "label": "No",
+	      "value": "no"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Wedneday",
+        "name": "wednesday",
+	"value": "yes",
+	"options": [
+	    {
+	      "label": "Yes",
+	      "value": "yes"
+	    },
+	    {
+	      "label": "No",
+	      "value": "no"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Thursday",
+        "name": "thursday",
+	"value": "yes",
+	"options": [
+	    {
+	      "label": "Yes",
+	      "value": "yes"
+	    },
+	    {
+	      "label": "No",
+	      "value": "no"
+	    }
+]
+    },
+    {
+        "type": "select",
+        "label": "Friday",
+        "name": "friday",
+	"value": "yes",
+	"options": [
+	    {
+	      "label": "Yes",
+	      "value": "yes"
+	    },
+	    {
+	      "label": "No",
+	      "value": "no"
+	    }
+	]
+    }
+]
+}
